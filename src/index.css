@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gold: #D4AF37;
+    --color-crimson: #8B0000;
+    --color-dark: #121212;
+    --font-serif: "Bodoni Moda", serif;
+    --font-sans: "Inter", sans-serif;
+
+    --color-theme-bg: var(--theme-bg);
+    --color-theme-bg-alt: var(--theme-bg-alt);
+    --color-theme-text: var(--theme-text);
+    --color-theme-text-muted: var(--theme-text-muted);
+    --color-theme-border: var(--theme-border);
+    --color-theme-card: var(--theme-card);
+}
+
+@layer base {
+    :root {
+        --theme-bg: #F9F6EE;
+        /* Cream */
+        --theme-bg-alt: #EBE8E0;
+        --theme-text: #1a1a1a;
+        --theme-text-muted: #4a4a4a;
+        --theme-border: rgba(0, 0, 0, 0.1);
+        --theme-card: rgba(255, 255, 255, 0.7);
+    }
+
+    .dark {
+        --theme-bg: #0a0a0a;
+        /* Deep Black */
+        --theme-bg-alt: #121212;
+        --theme-text: #ffffff;
+        --theme-text-muted: #9ca3af;
+        --theme-border: rgba(255, 255, 255, 0.1);
+        --theme-card: rgba(255, 255, 255, 0.05);
+    }
+
+    body {
+        @apply bg-theme-bg text-theme-text font-sans overflow-x-hidden transition-colors duration-700;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-serif text-gold font-bold;
+    }
+}

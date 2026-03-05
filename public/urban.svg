@@ -1,0 +1,11 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#121212"/>
+      <stop offset="100%" stop-color="#4a0404"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <text x="400" y="400" font-family="Inter, sans-serif" font-size="24" fill="#D4AF37" text-anchor="middle" dominant-baseline="middle" opacity="0.5">Urban &amp; Hip-Hop Placeholder</text>
+  <path d="M 200,600 L 300,300 L 400,500 L 500,200 L 600,600" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.1"/>
+</svg>

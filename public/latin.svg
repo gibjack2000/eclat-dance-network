@@ -1,0 +1,10 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#3b0909"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <text x="400" y="400" font-family="Inter, sans-serif" font-size="24" fill="#D4AF37" text-anchor="middle" dominant-baseline="middle" opacity="0.5">Latin &amp; Ballroom Placeholder</text>
+</svg>
